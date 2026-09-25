@@ -12,8 +12,7 @@ apt-get install -y nodejs
 npm install -g pm2
 
 # --- Get the app code ---
-# Replace with your actual repo URL once it's pushed
-git clone https://github.com/<your-username>/<your-repo>.git /var/www/myapp
+git clone https://github.com/suhassobale/web.git /var/www/myapp
 cd /var/www/myapp
 
 # --- Write the .env file (kept out of git; filled in here instead) ---
